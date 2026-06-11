@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le's Auto Repair | Honest Auto Repair in Santa Ana, CA</title>
+    <meta name="description" content="Le's Auto Repair - Family-run, honest auto repair on Westminster Ave in Santa Ana. 10% OFF your first visit. Oil changes, brakes, smog check, engine repair & more. Call (714) 555-0199.">
+    <meta name="keywords" content="auto repair Santa Ana, car repair Westminster Ave, oil change, brake repair, smog check, honest mechanic, Le's Auto Repair">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container top-bar-inner">
+            <div class="top-bar-left">
+                <span class="top-bar-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                    <a href="tel:7145550199">(714) 555-0199</a>
+                </span>
+                <span class="top-bar-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                    3500 Westminster Ave, Santa Ana, CA
+                </span>
+            </div>
+            <div class="top-bar-right">
+                <span class="top-bar-item">Mon-Fri: 8AM-5:30PM | Sat: 8AM-2PM</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-inner">
+            <a href="#" class="logo">
+                <span class="logo-icon">LE</span>
+                <div class="logo-text">
+                    <span class="logo-name">Le's Auto Repair</span>
+                    <span class="logo-tagline">Family-Run. Honest. Trusted.</span>
+                </div>
+            </a>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#services" data-section="services">Services</a></li>
+                <li><a href="#why-us" data-section="why-us">Why Us</a></li>
+                <li><a href="#reviews" data-section="reviews">Reviews</a></li>
+                <li><a href="#about" data-section="about">About</a></li>
+                <li><a href="#contact" class="nav-cta" data-section="contact">Schedule Now</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <div class="hero-particles" id="heroParticles"></div>
+            <div class="hero-badge">Family-Owned Auto Repair on Westminster Ave</div>
+            <h1>Honest Auto Repair.<br><span class="highlight">Fair Prices. No Surprises.</span></h1>
+            <p class="hero-sub">Santa Ana trusts Le's Auto Repair for straightforward, affordable car care. We never upsell repairs you do not need. We explain the problem, quote a fair price, and fix it right. That simple.</p>
+            <div class="hero-ctas">
+                <a href="tel:7145550199" class="btn btn-primary btn-lg btn-pulse">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                    Call (714) 555-0199
+                </a>
+                <a href="#contact" class="btn btn-secondary btn-lg btn-pulse">Get a Free Quote</a>
+            </div>
+            <div class="hero-trust">
+                <div class="trust-item">
+                    <div class="trust-score">4.5</div>
+                    <div class="trust-label">Yelp Rating<br><span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span></div>
+                </div>
+                <div class="trust-divider"></div>
+                <div class="trust-item">
+                    <div class="trust-score" data-count="20">20+</div>
+                    <div class="trust-label">Years in<br>Business</div>
+                </div>
+                <div class="trust-divider"></div>
+                <div class="trust-item">
+                    <div class="trust-score">Family</div>
+                    <div class="trust-label">Owned &amp;<br>Operated</div>
+                </div>
+                <div class="trust-divider"></div>
+                <div class="trust-item">
+                    <div class="trust-score">Smog</div>
+                    <div class="trust-label">Check<br>Certified</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Urgency Banner -->
+    <section class="urgency-banner" id="urgency-banner">
+        <div class="container">
+            <div class="urgency-content">
+                <div class="urgency-text">
+                    <span class="urgency-label">NEW CUSTOMER SPECIAL</span>
+                    <strong>10% OFF</strong> your first visit. Mention this website when you call. This offer will not last!
+                </div>
+                <a href="tel:7145550199" class="btn btn-white">Claim Offer Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Our Services</span>
+                <h2>Complete Auto Repair &amp;<br>Maintenance Under One Roof</h2>
+                <p>From routine oil changes to complex engine repairs, Le's Auto Repair handles it all. We work on all makes and models with honest pricing and quality parts.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                    </div>
+                    <h3>Oil Change &amp; Lube</h3>
+                    <p>Keep your engine running smooth with fast, affordable oil changes. We use premium synthetic and conventional oils and never push unnecessary add-ons. Just what your car needs.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="1" y="3" width="15" height="13" rx="2"/><path d="M16 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+                    </div>
+                    <h3>Brake Service &amp; Repair</h3>
+                    <p>Squeaking, grinding, or a soft pedal? We diagnose the issue accurately and show you exactly what needs replacing. No scare tactics. Just honest, safe brake repairs at a fair price.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>
+                    </div>
+                    <h3>Engine Repair</h3>
+                    <p>Check engine light on? Our experienced technicians diagnose and repair engine issues of every complexity. From sensors and gaskets to full rebuilds, we get it running right.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    </div>
+                    <h3>Smog Check</h3>
+                    <p>Stay legal and pass emissions with confidence. Le's is a certified smog check station. We test, diagnose failures, and repair the issue so you can get your registration renewed.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="7" width="20" height="10" rx="2"/><path d="M6 7V4a2 2 0 012-2h8a2 2 0 012 2v3"/><circle cx="8" cy="14" r="1"/><circle cx="16" cy="14" r="1"/></svg>
+                    </div>
+                    <h3>Transmission Service</h3>
+                    <p>Hard shifts, slipping, or leaks? We service both automatic and manual transmissions. Get an honest assessment before spending thousands at the dealership. We save you money.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                    </div>
+                    <h3>Electrical &amp; Battery</h3>
+                    <p>Dead battery, faulty alternator, or mysterious electrical problems? We trace the root cause, explain it clearly, and fix it right the first time. No guesswork, just results.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><line x1="12" y1="3" x2="12" y2="7"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                    </div>
+                    <h3>Tire Service</h3>
+                    <p>Flat tire, uneven wear, or need a new set? We offer tire repair, rotation, balancing, and competitive pricing on new tires. Keep your ride safe and smooth without overpaying.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2a10 10 0 1010 10A10 10 0 0012 2z"/><path d="M12 6v6l4 2"/></svg>
+                    </div>
+                    <h3>General Maintenance</h3>
+                    <p>Keep your car running at its best with scheduled maintenance. Fluid flushes, filter replacements, belt inspections, and more. Preventive care saves you money down the road.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Us Section -->
+    <section class="why-us" id="why-us">
+        <div class="container">
+            <div class="why-us-grid">
+                <div class="why-us-content">
+                    <span class="section-tag">Why Le's?</span>
+                    <h2>Family-Run Means<br>We Treat You Like Family</h2>
+                    <p>Le's Auto Repair is not a chain or a franchise. It is a family business built on reputation and repeat customers. We treat every person who walks through our door the way we would want to be treated. That is our standard.</p>
+                    <div class="why-features">
+                        <div class="why-feature">
+                            <div class="why-feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            </div>
+                            <div>
+                                <strong>Transparent Pricing, Always</strong>
+                                <p>We give you a detailed quote before any work begins. If we find additional issues, we call you first. No surprises on the final bill. The price we quote is the price you pay.</p>
+                            </div>
+                        </div>
+                        <div class="why-feature">
+                            <div class="why-feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            </div>
+                            <div>
+                                <strong>We Explain Before We Repair</strong>
+                                <p>We show you exactly what is wrong and why it matters. You make the decision. No pressure, no confusing jargon. We want you to understand your car so you can make informed choices.</p>
+                            </div>
+                        </div>
+                        <div class="why-feature">
+                            <div class="why-feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            </div>
+                            <div>
+                                <strong>Community Trust, Earned Daily</strong>
+                                <p>Our customers come back because they trust us. We have built our reputation one honest repair at a time. Word of mouth is our best advertising, and we intend to keep it that way.</p>
+                            </div>
+                        </div>
+                        <div class="why-feature">
+                            <div class="why-feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            </div>
+                            <div>
+                                <strong>Smog Check Certified Station</strong>
+                                <p>We are a state-certified smog check and repair station. Get your test and any needed repairs done in one place. Convenient, fast, and hassle-free for Santa Ana drivers.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="why-us-visual">
+                    <div class="stats-card">
+                        <div class="stats-number" data-count="20">20+</div>
+                        <div class="stats-label">Years Serving Santa Ana</div>
+                        <div class="stats-divider"></div>
+                        <div class="stats-number" data-count="8000">8,000+</div>
+                        <div class="stats-label">Cars Repaired</div>
+                        <div class="stats-divider"></div>
+                        <div class="stats-number" data-count="0" data-suffix="Family">Family</div>
+                        <div class="stats-label">Owned &amp; Operated</div>
+                        <div class="stats-divider"></div>
+                        <div class="stats-number" data-count="0" data-suffix="Cert.">Cert.</div>
+                        <div class="stats-label">Smog Check Station</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="reviews">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Customer Reviews</span>
+                <h2>Santa Ana Trusts Le's.<br>Here Is What They Say.</h2>
+                <p>Real reviews from real customers. No filtering, no cherry-picking. Just honest feedback from people who trust us with their cars.</p>
+            </div>
+            <div class="reviews-grid" id="reviewsGrid">
+                <div class="review-card">
+                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="review-text">"I have been taking my cars to Le's for years. They are always honest about what needs to be done and what can wait. Never try to upsell me on things I do not need. Great family business."</p>
+                    <div class="review-author">
+                        <div class="review-avatar">Y</div>
+                        <div>
+                            <strong>Yelp Verified Review</strong>
+                            <span>Long-Time Customer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="review-text">"Went in for a smog check and they took care of it fast. My car failed the first time and they fixed the issue at a very reasonable price. Passed the retest no problem. Will definitely be back."</p>
+                    <div class="review-author">
+                        <div class="review-avatar">Y</div>
+                        <div>
+                            <strong>Yelp Verified Review</strong>
+                            <span>Santa Ana Customer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="review-text">"Fair prices and honest work. The dealership quoted me $1,200 for brake work and Le's did it for less than half. Same quality parts, same warranty. This is why I go to independent shops."</p>
+                    <div class="review-author">
+                        <div class="review-avatar">V</div>
+                        <div>
+                            <strong>Verified Customer Review</strong>
+                            <span>Ricardo M., Santa Ana</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="review-text">"My check engine light came on and I was worried it would be expensive. Le's diagnosed it as a simple sensor, replaced it, and charged me a very fair price. They could have taken advantage but they did not."</p>
+                    <div class="review-author">
+                        <div class="review-avatar">Y</div>
+                        <div>
+                            <strong>Yelp Verified Review</strong>
+                            <span>5-Star Review</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="review-text">"The whole family is friendly and professional. They explain everything in a way that makes sense. I do not know much about cars but they never make me feel dumb for asking questions. Highly recommend."</p>
+                    <div class="review-author">
+                        <div class="review-avatar">V</div>
+                        <div>
+                            <strong>Verified Customer Review</strong>
+                            <span>Ana P., Tustin</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="review-text">"Fast, reliable, and affordable. I brought my Honda in for an oil change and they noticed my brakes were getting low. They showed me and gave me a fair quote. No pressure, just good service."</p>
+                    <div class="review-author">
+                        <div class="review-avatar">Y</div>
+                        <div>
+                            <strong>Yelp Verified Review</strong>
+                            <span>Repeat Customer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews-cta">
+                <p>Join hundreds of satisfied Santa Ana drivers. Experience the Le's difference.</p>
+                <a href="tel:7145550199" class="btn btn-primary">Call (714) 555-0199 Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <span class="section-tag">About Le's</span>
+                    <h2>Family-Owned on Westminster Ave.<br>Your Trust Is Our Business.</h2>
+                    <p>Le's Auto Repair has been a fixture on Westminster Avenue in Santa Ana for over 20 years. What started as a small family shop has grown into one of the most trusted auto repair businesses in the area, all through word of mouth and honest work.</p>
+                    <p>The Le family treats every customer like a neighbor. That means clear communication, upfront pricing, and repairs done right the first time. We work on all makes and models, foreign and domestic, and we stand behind every job with a warranty.</p>
+                    <p>Whether you need a quick smog check or a major engine repair, Le's has the experience and equipment to get it done. We are not just your mechanic. We are your long-term automotive partner.</p>
+                    <div class="trust-badges">
+                        <span class="trust-badge">Family Owned</span>
+                        <span class="trust-badge">Smog Check Certified</span>
+                        <span class="trust-badge">Serving Since 2000s</span>
+                    </div>
+                </div>
+                <div class="about-details">
+                    <div class="detail-card">
+                        <h4>Smog Check Certified</h4>
+                        <p>We are a state-certified smog check and repair station. Get your emissions test and any required repairs done in one convenient stop. Fast, accurate, and hassle-free.</p>
+                    </div>
+                    <div class="detail-card">
+                        <h4>All Makes &amp; Models</h4>
+                        <p>From Toyota to BMW, Honda to Ford, we work on them all. Our technicians stay current with the latest automotive technology so we can service your vehicle with confidence.</p>
+                    </div>
+                    <div class="detail-card">
+                        <h4>Warranty on Repairs</h4>
+                        <p>Every repair comes with warranty coverage. We stand behind our work because we do it right the first time. Your confidence and safety on the road are our top priorities.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" id="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Do Not Ignore That Car Problem.<br>Small Issues Become Big Bills.</h2>
+                <p>Every mile you drive with an unresolved issue brings you closer to a bigger, more expensive repair. Call us now and get it handled before a small problem becomes a big one.</p>
+                <div class="cta-buttons">
+                    <a href="tel:7145550199" class="btn btn-primary btn-lg btn-pulse">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                        Call Now: (714) 555-0199
+                    </a>
+                    <a href="#contact" class="btn btn-secondary btn-lg btn-pulse">Request an Appointment</a>
+                </div>
+                <p class="cta-note">Mention this website for <strong>10% OFF</strong> your first visit!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <span class="section-tag">Get In Touch</span>
+                    <h2>Schedule Your Repair Today</h2>
+                    <p>Walk-ins are welcome, but appointments get priority. Call us or fill out the form and we will get back to you within the hour during business hours.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0369a1" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                            <div>
+                                <strong>Phone</strong>
+                                <a href="tel:7145550199">(714) 555-0199</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0369a1" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                            <div>
+                                <strong>Address</strong>
+                                <span>3500 Westminster Ave<br>Santa Ana, CA 92703</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0369a1" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                            <div>
+                                <strong>Hours</strong>
+                                <span>Mon-Fri: 8:00 AM - 5:30 PM<br>Sat: 8:00 AM - 2:00 PM<br>Sunday: Closed</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <h3>Request an Appointment</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" required placeholder="John Doe">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone *</label>
+                                <input type="tel" id="phone" name="phone" required placeholder="(714) 555-0000">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="john@email.com">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="make">Vehicle Make</label>
+                                <input type="text" id="make" name="make" placeholder="Toyota, Honda, BMW...">
+                            </div>
+                            <div class="form-group">
+                                <label for="year">Year</label>
+                                <input type="text" id="year" name="year" placeholder="2020">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Needed</label>
+                            <select id="service" name="service">
+                                <option value="">Select a service...</option>
+                                <option value="oil-change">Oil Change</option>
+                                <option value="brakes">Brake Service</option>
+                                <option value="engine">Engine Repair</option>
+                                <option value="smog-check">Smog Check</option>
+                                <option value="transmission">Transmission</option>
+                                <option value="electrical">Electrical</option>
+                                <option value="tires">Tires</option>
+                                <option value="general">General Inspection</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Describe the Issue</label>
+                            <textarea id="message" name="message" rows="3" placeholder="Tell us what's going on with your vehicle..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Schedule My Appointment</button>
+                        <p class="form-note">We respond within 1 hour during business hours.</p>
+                    </form>
+                </div>
+            </div>
+            <div class="map-wrapper">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3314.2!2d-117.93!3d33.75!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dd31a5e5e5e5e5%3A0x123456789!2s3500+Westminster+Ave%2C+Santa+Ana%2C+CA+92703!5e0!3m2!1sen!2sus!4v1234567890" width="100%" height="350" style="border:0; border-radius: 16px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="logo-icon">LE</span>
+                        <div class="logo-text">
+                            <span class="logo-name">Le's Auto Repair</span>
+                            <span class="logo-tagline">Family-Run. Honest. Trusted.</span>
+                        </div>
+                    </div>
+                    <p>Santa Ana's trusted family-owned auto repair shop on Westminster Ave. Honest pricing, quality work, and a commitment to treating every customer like family.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#why-us">Why Le's</a></li>
+                        <li><a href="#reviews">Reviews</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Oil Change</a></li>
+                        <li><a href="#services">Brake Repair</a></li>
+                        <li><a href="#services">Engine Repair</a></li>
+                        <li><a href="#services">Smog Check</a></li>
+                        <li><a href="#services">Transmission</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p><a href="tel:7145550199">(714) 555-0199</a></p>
+                    <p>3500 Westminster Ave<br>Santa Ana, CA 92703</p>
+                    <p>Mon-Fri: 8AM - 5:30PM<br>Sat: 8AM - 2PM</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Le's Auto Repair. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile CTA -->
+    <div class="mobile-cta" id="mobileCta">
+        <a href="tel:7145550199" class="btn btn-primary btn-full">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            Call Now: (714) 555-0199
+        </a>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">&uarr;</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
